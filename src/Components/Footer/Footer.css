@@ -1,0 +1,45 @@
+.Footer_container{
+    margin-left: 15%;
+    background-color:black;
+    /* padding-top: 10px; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer_elems{
+    display: flex;
+    padding-left: 15px;
+}
+.middleSection{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.sideSection{
+    margin-left: 30px;
+}
+.companyicon img{
+    height: 210px;
+    width: 210px;
+}
+.middleSection h2{
+    color:rgb(116, 179, 204);
+}
+.sideSection h2, h3{
+    color: rgb(116, 179, 204);
+}
+.middleSection p{
+    color: White;
+    
+}
+.sideSection{
+    margin-top: 20px;
+}
+.sideSection p{
+    color:white;
+}
+.HomeSection{
+    display: flex;
+    border-top:1px solid rgb(116, 179, 204);
+}
+.HomeSection h3{
+    margin-left: 149px;
+}

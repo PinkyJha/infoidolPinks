@@ -21,3 +21,30 @@
 .trending_container h3{
     margin-left: 22px;
 }
+
+@media only screen and (max-width: 480px) {
+    .trending_container{
+        border-top: 2px solid #f5dbdb;
+        border-bottom: 2px solid #f5dbdb;
+        padding: 5px 0;
+        width: 71%;
+        margin-left: 2%;
+    }
+    .trending_elems{
+        /* display:flex; */
+        padding: 5px 0px 22px 0px;
+        justify-content: space-evenly;
+    }
+    .trending-img{
+        /* margin-left: 10px; */
+    }
+    .trending-img img{
+        border-radius: 10px;
+        width: 95%;
+        height: 126%;
+    }
+    .trending_container h3{
+        margin-left: 0px;
+    }
+
+}

@@ -33,4 +33,44 @@ a{
 a:hover{
     color:crimson;
 }
+@media only screen and (max-width: 480px) {
+    .AlbumContainer{
+        border-top: 2px solid #f5dbdb;
+        border-bottom: 2px solid #f5dbdb;
+        padding: 5px 0;
+        width: 60%;
+        margin-left:1%;
+    }
+    .Album-elems{
+        display: flex;
+        padding: 5px 0;
+        justify-content: space-around;
+        /* overflow: hidden; */
+    }    
+    .Album-Img img{
+        border-radius: 10px;
+        width: 68px;
+        height: 52px;
+        margin-left: 10px;
+    }
+    h3{
+        color:#727272;
+        margin: -5px 0 5px 8px ;
+    }
+    .Album-text{
+        height: 1px;
+    }
+    .Album-text p{
+        margin-left: 10px;
+        font-size:6px;
+    }
+    a{
+        font-size: 11px;
+        margin-left: 10px;
+    }
+    a:hover{
+        color:crimson;
+    }
+
+}
 

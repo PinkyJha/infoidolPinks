@@ -16,7 +16,7 @@ const Album = () => {
                             <div className="Album-text">
                                 <p>Lovely Background music</p>
                             </div>
-                            <a href="">Harsh Music</a>
+                            {/* <a href="">Harsh Music</a> */}
                         </div> 
                         </>
                     )

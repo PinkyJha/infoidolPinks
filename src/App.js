@@ -8,6 +8,7 @@ import Reels from './Components/Body/Reels';
 import Stories from './Components/Body/stories';
 import TagBar from './Components/Body/TagBar';
 import Trending from './Components/Body/trending';
+import Footer from './Components/Footer/Footer';
 import NavBar from './Components/NavBar/NavBar';
 import Sidebar from './Components/SideBar/Sidebar';
 
@@ -32,6 +33,7 @@ function App() {
       <CurrentTrending/>
       <Audio/>
       <Blog/>
+      <Footer/>
     </div>
   );
 }
