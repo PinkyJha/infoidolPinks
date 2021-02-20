@@ -12,6 +12,7 @@
     align-items: center;
     border-radius: 10px;
     margin-left: 15%;
+    
 }
 .stories{ 
     display: flex;
@@ -23,24 +24,24 @@
     margin-top: 84px;
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 640px) {
     .stories-block img{
-        width: 75%;
-        height: 48px;
+        width: 48%;
+        height: 182px;
         margin-top: 17%;
         border: 3px dashed rgb(22, 157, 211);
         border-radius: 50%;
     }
     .stories-block{
         margin-top: 3%;
-        overflow-x: auto;
         padding-bottom: 10px;
         display: flex;
         background-color: #dfe1ec;
-        height: 94px;
-        width: 93%;
+        height: 326px;
+        width: 324%;
         align-items: center;
         margin-left: 0%;
+        scroll-behavior: smooth;
     }
     .stories{ 
         display: flex;
@@ -48,9 +49,9 @@
     
     }
     .stories .stories-text{
-        margin-left: -60px;
-        margin-top: 59px;
-        font-size: 14px;
+        margin-left: -360px;
+        margin-top: 252px;
+        font-size: 49px;
     
     }
 

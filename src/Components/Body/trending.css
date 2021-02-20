@@ -20,28 +20,30 @@
     margin-left: 22px;
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 640px) {
     .trending_container{
         /* border-top: 2px solid #f5dbdb;
         border-bottom: 2px solid #f5dbdb; */
-        padding: 9px 0;
-        width: 71%;
-        margin-left: 2%;
+        padding: 25px 0;
+        width: 298%;
+        height: fit-content;
+        margin-left: 5%;
     }
     .trending_elems{
-        display:inline-block;
-        padding: 0px 0px 2px 15px;
+        display: flex;
+        padding: 21px 2px 162px 0px;
         justify-content: space-evenly;
     }
     
     .trending-img img{
-        border-radius: 10px;
-        width: 122%;
-        height: 126%;
+        border-radius: 34px;
+        width: 165%;
+        height: 178%;
     }
     .trending_container h3{
-        color:#727272;
-        margin-left: -3px;
+        color: #727272;
+    margin-left: -3px;
+    font-size: 320%;
     }
 
 }
