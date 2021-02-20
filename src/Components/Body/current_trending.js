@@ -1,5 +1,5 @@
 import React from 'react'
-import CTimage from "../Assets/reelimg.png";
+import CTimage from "../Assets/la.jpg";
 import dp from "../Assets/la.jpg";
 import './current_trending.css';
 const Array=[1,2,3,4];

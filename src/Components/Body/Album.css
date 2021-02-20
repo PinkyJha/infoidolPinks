@@ -33,27 +33,31 @@ a{
 a:hover{
     color:crimson;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 360px) {
     .AlbumContainer{
         border-top: 2px solid #f5dbdb;
         border-bottom: 2px solid #f5dbdb;
         padding: 5px 0;
-        width: 60%;
+        width: 130%;
+        height: 140px;
         margin-left:1%;
     }
     .Album-elems{
         display: flex;
         padding: 5px 0;
+        height: 100px;
+        width:120%;
         justify-content: space-around;
+        margin-left: 3%;
         /* overflow: hidden; */
     }    
     .Album-Img img{
         border-radius: 10px;
-        width: 68px;
-        height: 52px;
-        margin-left: 10px;
+        width: 89px;
+        height: 79px;
+        margin-left: -10px;
     }
-    h3{
+    .AlbumContainer h3{
         color:#727272;
         margin: -5px 0 5px 8px ;
     }
@@ -61,16 +65,19 @@ a:hover{
         height: 1px;
     }
     .Album-text p{
-        margin-left: 10px;
-        font-size:6px;
+        margin-left: -13px;
+        font-size: 10px;
     }
-    a{
+    /* .Album-Img{
+       
+    } */
+    /* a{
         font-size: 11px;
         margin-left: 10px;
     }
     a:hover{
         color:crimson;
-    }
+    } */
 
 }
 

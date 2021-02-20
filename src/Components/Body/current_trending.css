@@ -55,3 +55,65 @@
     width: 27px;
     height: 27px;
 }
+
+@media only screen and (max-width: 360px) {
+    .CT_container{
+        margin-left: 120%;
+        width: 82%;
+    }
+    .CT_container h3{
+        color: #727272;
+        margin-left: -423px;
+    }
+    .CT_container button{
+        color: orange;
+        border-radius: 10px;
+        padding: 0px 17px;
+        background-color: white;
+        border: 1px solid orange;
+        margin-left: 43%;
+    }
+    .CT_elems{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .CT_Img img{
+        width: 277px;
+        height: 142px;
+        margin-left: 14px;
+        border-radius: 10px;
+        padding-top: 5px;
+    
+    }
+    .viewall{
+        display: flex;
+    }
+    .upperclass{
+        position: relative;
+    }
+    .content h3{
+        position: absolute;
+        bottom: 42px;
+        left: 419px;
+        color:white;
+        width: 100%;
+        padding: 20px;
+    }
+    .content p{
+        font-size: 10px;
+        position: absolute;
+        color:white;
+        bottom: 54px;
+        left: 16px;
+    }
+    .followoption{
+        display: flex;
+    }
+    .followoption img{
+        border-radius: 50px;
+        width: 27px;
+        height: 27px;
+    }
+
+}
