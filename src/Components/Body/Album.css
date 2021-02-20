@@ -33,12 +33,12 @@ a{
 a:hover{
     color:crimson;
 }
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 640px) {
     .AlbumContainer{
         border-top: 2px solid #f5dbdb;
         border-bottom: 2px solid #f5dbdb;
         padding: 5px 0;
-        width: 130%;
+        width: 100%;
         height: 140px;
         margin-left:1%;
     }

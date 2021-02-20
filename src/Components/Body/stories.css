@@ -26,8 +26,8 @@
 
 @media only screen and (max-width: 640px) {
     .stories-block img{
-        width: 48%;
-        height: 182px;
+        width: 73%;
+        height: 102px;
         margin-top: 17%;
         border: 3px dashed rgb(22, 157, 211);
         border-radius: 50%;
@@ -37,8 +37,8 @@
         padding-bottom: 10px;
         display: flex;
         background-color: #dfe1ec;
-        height: 326px;
-        width: 324%;
+        height: 20%;
+        width: 100%;
         align-items: center;
         margin-left: 0%;
         scroll-behavior: smooth;
@@ -49,9 +49,9 @@
     
     }
     .stories .stories-text{
-        margin-left: -360px;
-        margin-top: 252px;
-        font-size: 49px;
+        margin-left: -117px;
+        margin-top: 132px;
+        font-size: 21px;
     
     }
 
