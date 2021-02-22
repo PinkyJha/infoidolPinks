@@ -24,24 +24,22 @@
     margin-top: 84px;
 }
 
-@media only screen and (max-width: 640px) {
+@media (max-width:500px){
     .stories-block img{
-        width: 73%;
-        height: 102px;
-        margin-top: 17%;
+        width: 65%;
+        height: 55px;
         border: 3px dashed rgb(22, 157, 211);
         border-radius: 50%;
     }
     .stories-block{
-        margin-top: 3%;
-        padding-bottom: 10px;
         display: flex;
         background-color: #dfe1ec;
-        height: 20%;
+        height: 120px;
         width: 100%;
         align-items: center;
-        margin-left: 0%;
-        scroll-behavior: smooth;
+        border-radius: 10px;
+        margin-left: 9%;
+        
     }
     .stories{ 
         display: flex;
@@ -49,11 +47,7 @@
     
     }
     .stories .stories-text{
-        margin-left: -117px;
-        margin-top: 132px;
-        font-size: 21px;
-    
+        margin-left: -83px;
+        margin-top: 52px;
     }
-
-}
-
+    }

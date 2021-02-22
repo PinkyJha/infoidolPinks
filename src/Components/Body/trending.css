@@ -19,31 +19,3 @@
 .trending_container h3{
     margin-left: 22px;
 }
-
-@media only screen and (max-width: 640px) {
-    .trending_container{
-        /* border-top: 2px solid #f5dbdb;
-        border-bottom: 2px solid #f5dbdb; */
-        padding: 25px 0;
-        width: 100%;
-        height: fit-content;
-        margin-left: 5%;
-    }
-    .trending_elems{
-        display: flex;
-        padding: 21px 2px 67px 0px;
-        justify-content: space-evenly;
-    }
-    
-    .trending-img img{
-        border-radius: 21px;
-        width: 95%;
-        height: 178%;
-    }
-    .trending_container h3{
-        color: #727272;
-    margin-left: -18px;
-    font-size: 259%;
-    }
-
-}

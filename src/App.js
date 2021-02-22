@@ -1,3 +1,4 @@
+import { Slider } from '@material-ui/core';
 import './App.css';
 import Album from './Components/Body/Album';
 import Audio from './Components/Body/Audio';
@@ -16,6 +17,7 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
+      {/* <Slider/> */}
       <div className="bannerSideBar">
         <Sidebar/>
           <Banner/>
