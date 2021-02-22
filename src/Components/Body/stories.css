@@ -24,7 +24,7 @@
     margin-top: 84px;
 }
 
-@media (max-width:500px){
+@media (max-width:600px){
     .stories-block img{
         width: 65%;
         height: 55px;
@@ -38,7 +38,7 @@
         width: 100%;
         align-items: center;
         border-radius: 10px;
-        margin-left: 9%;
+        margin-left: 0%;
         
     }
     .stories{ 
@@ -47,7 +47,7 @@
     
     }
     .stories .stories-text{
-        margin-left: -83px;
+        margin-left: -110px;
         margin-top: 52px;
     }
     }
